@@ -110,3 +110,24 @@
     margin-top: 70px;
 }
 
+/* inicio etiquetas semanticas */
+.novedades-etiquetas-semanticas{
+    display: flex;
+    flex-direction: row;
+       
+}
+
+.novedades-etiquetas-semanticas__header{
+    width: 189px;
+    height: 145px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.novedades-etiquetas-semanticas__body{
+    width: 50%;
+    text-align: left;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
