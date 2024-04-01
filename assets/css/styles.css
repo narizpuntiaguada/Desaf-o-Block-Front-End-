@@ -69,16 +69,17 @@
 }
 
 .adl {
-    display: flex;
+    display:flex;
     width: 100%;
-    padding-top: 20px;
+
 
 }
 
 .adl__image {
-    width: 50px;
-    height: 50px;
-    border-radius: 77px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;   
 }
 
 .adl__brand {
@@ -86,7 +87,7 @@
     font-weight: 500;
     text-align: justify;
     margin-left: 10px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 /* inicio novedades pasadas*/
@@ -111,23 +112,48 @@
 }
 
 /* inicio etiquetas semanticas */
-.novedades-etiquetas-semanticas{
+.novedades-etiquetas-semanticas {
     display: flex;
     flex-direction: row;
-       
+
 }
 
-.novedades-etiquetas-semanticas__header{
+.novedades-etiquetas-semanticas__header {
     width: 189px;
     height: 145px;
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 20px;
 }
-.novedades-etiquetas-semanticas__body{
-    width: 50%;
+
+.novedades-etiquetas-semanticas__body {
+    width: 45%;
     text-align: left;
     align-items: center;
-    margin-left: 15px;
-    margin-top: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
+/* inicio etiquetas react */
+.novedades-pasadas-react {
+    display: flex;
+    flex-direction: row;
+}
+
+.novedades-pasadas-react__header {
+
+    width: 189px;
+    height: 145px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+.novedades-pasadas-react__body {
+    width: 45%;
+    text-align: left;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+   
+
+}
