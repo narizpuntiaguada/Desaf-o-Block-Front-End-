@@ -7,7 +7,38 @@ font-family: "Poppins", sans-serif;
 
 /* inicio header */
 
-.header__image{
+.header__logo{
     width: 55px;
     height: 55px;
+}
+.header__title{
+    font-weight: 900px;  
+    font-style:italic;
+    color: #000000;
+
+    }
+
+/* inicio novedades */
+.container{
+
+}
+
+.novedades__body{
+display: flex;
+flex-direction: column;
+}
+
+.novedades__title{
+
+}
+
+
+.novedades__image{
+
+}
+.novedades__date{
+
+}
+.novedades__descriptions{
+
 }
