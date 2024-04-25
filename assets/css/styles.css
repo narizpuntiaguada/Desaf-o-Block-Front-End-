@@ -36,8 +36,7 @@
 }
 
 .novedades__body {
-    display: block;
-    width: 60%;
+
     margin: 15px;
 
 }
@@ -50,8 +49,8 @@
 
 .novedades__image {
 
-   width: 700px;  
-   height: 320px;
+    width: 100%;
+    height: auto;
     border-radius: 20px;
 }
 
@@ -92,7 +91,7 @@
 /* inicio novedades pasadas*/
 .novedades-pasadas {
     display: flex;
-    flex-direction: row;
+
 }
 
 .novedades-pasadas__header {
@@ -103,7 +102,7 @@
 }
 
 .novedades-pasadas__body {
-    width: 50%;
+    width: 100%;
     text-align: left;
     align-items: center;
     margin-left: 15px;
@@ -170,8 +169,8 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-   justify-content: space-between;
-    
+    justify-content: space-between;
+
 
 }
 
@@ -182,7 +181,7 @@
 
 
 .populares__date {
-    display:flex
+    display: flex
 }
 
 .populares__descriptions {
@@ -215,13 +214,13 @@
 
 }
 
-.cards{
+.cards {
     margin: 20px auto;
     width: 400px;
 }
 
 /* html */
-.box{
+.box {
     margin: 20px auto;
     width: 90%;
     height: 65px;
@@ -231,10 +230,12 @@
     align-items: center;
 
 }
-.box-img{
+
+.box-img {
     height: 100%;
 }
-.box-title{
+
+.box-title {
     font-size: 36px;
     margin-right: 30px;
     color: #ffff;
@@ -270,17 +271,18 @@
     background-color: #563D7C;
 }
 
-.box-ending{
+.box-ending {
     justify-content: center;
-    color:black
+    color: black
 }
+
 .footer {
     display: flex;
     gap: 10px;
     align-items: center;
     border-top: 2px solid #00000066;
     padding: 25px 35px;
- 
+
 }
 
 .footer__logo {
